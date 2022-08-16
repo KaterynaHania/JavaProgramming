@@ -34,6 +34,32 @@ public class Cydeo {
         tester.work();
         teacher.work();
 
+        System.out.println("-----------------------------------");
+
+        developer.eat();
+        developer.drink();
+        developer.sleep();
+        developer.fixingBugs();
+
+        System.out.println("-----------------------------------");
+
+        tester.eat();
+        tester.drink();
+        tester.sleep();
+        tester.createTicket();
+
+        System.out.println("-----------------------------------");
+
+        teacher.eat();
+        teacher.drink();
+        teacher.sleep();
+
+        System.out.println("-----------------------------------");
+
+        student.eat();
+        student.drink();
+        student.sleep();
+
 
 
 
