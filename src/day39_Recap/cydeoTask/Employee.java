@@ -49,6 +49,10 @@ public class Employee extends Person{
         this.salary = salary;
     }
 
+    public void work(){
+        System.out.println(getName()+" is working");
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
