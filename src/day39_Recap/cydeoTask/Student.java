@@ -6,7 +6,7 @@ public class Student extends Person{
 private int studentID;
 private String fieldOfStudy;
 
-    public Student(String name, int age, char gender) {
+    public Student(String name, int age, char gender, int studentID, String fieldOfStudy) {
         super(name, age, gender);
         setStudentID(studentID);
         setFieldOfStudy(fieldOfStudy);
