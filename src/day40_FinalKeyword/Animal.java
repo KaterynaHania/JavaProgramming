@@ -4,16 +4,16 @@ public class Animal {
 
     private String name;
     private final String breed;
-    private final char genger;
+    private final char gender;
     private final String colour;
     private String size;
     private int age;
 
 
-    public Animal(String name, String breed, char genger, String colour, String size, int age) {
+    public Animal(String name, String breed, char gender, String colour, String size, int age) {
         this.name = name;
         this.breed = breed;
-        this.genger = genger;
+        this.gender = gender;
         this.colour = colour;
         this.size = size;
         this.age = age;
@@ -27,8 +27,8 @@ public class Animal {
         return breed;
     }
 
-    public char getGenger() {
-        return genger;
+    public char getGender() {
+        return gender;
     }
 
     public String getColour() {
@@ -54,4 +54,17 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public void eat(){
+        System.out.println(name+" is eating");
+    }
+
+    public final void drink(){
+        System.out.println(name+" is drinking water");
+    }
+
+
+
+
+
 }
